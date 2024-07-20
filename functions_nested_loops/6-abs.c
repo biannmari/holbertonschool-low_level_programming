@@ -12,17 +12,17 @@ int _abs(int n)
 
 {
 if (n < 0)
-return -n;
+return (-n);
 else
-return n;
+return (n);
 
 {
-    int n = -5;
-    int result;
+int n = -5;
+int result;
 
-    result = _abs(n);
-    printf("The absolute value of %d is %d\n", n, result);
+result = _abs(n);
+printf("The absolute value of %d is %d\n", n, result);
 
-    return 0;
+return (0);
 }
 }
